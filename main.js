@@ -9,14 +9,35 @@ var questions = [
         question: "Which was the first Pokemon ever designed?",
         answers: ["Pikachu", "Rhydon", "Onix", "Bulbasaur"],
         correctAnswer: "Rhydon",
-        image: "assets\Rhydon.gif"
+        image: "assets/Rhydon.gif"
     },
 
     {
         question: "Which of these Pokemon actually exists?",
         answers: ["Garbodor", "Hissune", "Stronk", "Surinari"],
         correctAnswer: "Garbodor",
-        image: "assets\Trubbish.gif"
+        image: "assets/Trubbish.gif"
+    },
+
+    {
+        question: "What is Pokemon short for?",
+        answers: ["Pocket friends", "Monster friends", "Pocket monsters", "Maze bean"],
+        correctAnswer: "Pocket monsters",
+        image: "assets/squirtle.gif"
+    },
+
+    {
+        question: "What is Pokemon #131 in the Pokedex?",
+        answers: ["Electabuzz", "Eevee", "Gyarados", "Lapras"],
+        correctAnswer: "Lapras",
+        image: "assets/lapras.gif"
+    },
+
+    {
+        question: "Which of these Pokemon is not a starter?",
+        answers: ["Snivy", "Turtwig", "Chikorita", "Pichu"],
+        correctAnswer: "Pichu",
+        image: "assets/pichu.gif"
     },
 
 ]
@@ -26,7 +47,7 @@ var timer;
 
 var game = {
 
-    questions: question,
+    questions: questions,
     currentQuestion: 0,
     counter: countStartNumber,
     correct: 0,
